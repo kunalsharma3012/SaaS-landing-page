@@ -32,7 +32,7 @@ export default function Hero() {
                         ✨$7.5M seed round raised
                     </div>
                 </div>
-                <h1 className="text-6xl font-medium text-center lg:text-8xl mt-6 md:text-7xl ">
+                <h1 className="text-6xl font-medium text-center mt-6 md:text-7xl ">
                     Impact design, created effortlessly
                 </h1>
                 <p className="text-center text-4xl text-white/50 mt-8 max-w-2xl mx-auto">
