@@ -58,7 +58,7 @@ export default function Hero() {
                 <motion.div
                     ref={leftPointerScope}
                     initial={{ opacity: 0, y: 100, x: -200 }}
-                    className="absolute left-56 top-96"
+                    className="absolute left-56 top-96  max-lg:hidden"
                 >
                     <Pointer name="Andrea" />
                 </motion.div>
@@ -74,7 +74,7 @@ export default function Hero() {
                 </motion.div>
 
                 <motion.div
-                    className="absolute right-80"
+                    className="absolute right-80 max-lg:hidden"
                     ref={rightPointerScope}
                     initial={{ opacity: 0, y: 100, x: 275}}
                 >
