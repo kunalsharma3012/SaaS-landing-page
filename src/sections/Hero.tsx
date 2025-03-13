@@ -5,7 +5,7 @@ import designExample1Image from "@/assets/images/design-example-1.png";
 import designExample2Image from "@/assets/images/design-example-2.png";
 import Image from "next/image";
 import Pointer from "@/components/pointer";
-import { easeInOut, motion, useAnimate } from "framer-motion";
+import { motion, useAnimate } from "framer-motion";
 import { useEffect } from "react";
 
 export default function Hero() {
